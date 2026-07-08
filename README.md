@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+Masaar Smart — مسار
+Riyadh Intelligent Mobility Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+Why I Built This
 
-In the project directory, you can run:
+Riyadh is one of the fastest-growing cities in the world. Anyone who has driven on King Fahd Road at 8am or tried to find parking near Tahlia Street on a Thursday night knows the problem firsthand. Traffic is not just an inconvenience — it costs time, fuel, money, and mental energy at city scale.
 
-### `npm start`
+I built Masaar Smart as my attempt to answer a simple question: what would it look like if a city's mobility data was actually useful to the people living in it?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a React-based intelligent mobility dashboard for Riyadh that brings together traffic prediction, metro network status, EV charging availability, and smart route optimization — all in one place, designed to be readable by a commuter, not just a data scientist.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+What It Does
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Live Traffic Dashboard
+A real-time overview of congestion levels, average city speed, active incidents, and EV charger availability across Riyadh. The dashboard updates based on time of day and surfaces the data that actually matters at a glance.
 
-### `npm run build`
+Traffic Congestion Prediction
+Hourly forecasts showing congestion percentage, average speed, and incident count across the day. District-level breakdowns show which neighborhoods are moving and which are gridlocked — with color-coded risk levels so you know immediately where to avoid.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Riyadh Metro Network
+All six metro lines with operational status, station counts, and line lengths. A side-by-side comparison shows how much time metro travel saves versus driving on the same routes — the numbers are often surprising.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+EV Charging Stations
+Live availability across six major charging stations in Riyadh, from KAFD to the East Ring Road. Each station shows charger type, current availability, and a visual availability bar. As EV adoption accelerates under Vision 2030, this kind of real-time awareness becomes critical infrastructure.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Smart Route Optimizer
+Select a starting point and destination and get three route options: Fastest, Recommended, and Eco. Each option shows travel time, distance, transport mode, and current traffic conditions. The system recommends metro or bus alternatives when road congestion is high — not because it is forced to, but because the data supports it.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend: React 18
+Charts and Visualization: Recharts
+Styling: Custom CSS with CSS variables
+Data: Synthetic dataset modeled on real Riyadh infrastructure
+Deployment: GitHub Pages / Vercel
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Vision 2030 Alignment
 
-## Learn More
+This project directly addresses three pillars of Saudi Vision 2030:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Smart Cities — Riyadh and NEOM are investing heavily in intelligent infrastructure. Masaar Smart models what citizen-facing mobility intelligence could look like.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Sustainability — The EV charging dashboard and eco route recommendations support the Kingdom's push toward clean transportation.
 
-### Code Splitting
+Quality of Life — Reducing commute friction is one of the highest-leverage improvements to daily life in any growing city.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+HUMAIN and SDAIA have both identified autonomous mobility and smart infrastructure as priority sectors. This project is my hands-on contribution to understanding that space.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Running Locally
 
-### Making a Progressive Web App
+git clone https://github.com/rayw706/masaar-smart.git
+cd masaar-smart
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open http://localhost:3000 in your browser.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+What I Would Build Next
 
-### Deployment
+Integration with Riyadh's live traffic API when available
+Actual GPS-based route suggestions using OpenStreetMap
+Predictive ML model trained on historical Riyadh congestion patterns
+Arabic language toggle with full RTL support
+Mobile-responsive redesign for on-the-go use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+About
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built by Raghad Saleem Almutairi — AI track, Al Majmaah University.
+
+This project is part of a portfolio of AI and data projects built to solve real problems in the Saudi context. If you are working on smart city infrastructure, mobility, or Vision 2030 initiatives and want to connect, reach out on LinkedIn: linkedin.com/in/raghad-almut7airi-a3693b410
+
+Masaar means route or path in Arabic.
